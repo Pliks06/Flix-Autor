@@ -1,0 +1,10 @@
+git init
+git add example.txt
+git commit -m "Initial commit with example.txt"
+git remote add origin https://github.com/yourusername/your-repository-name.git
+git push -u origin master
+git clone https://github.com/yourusername/your-repository-name.git
+git add <your-changed-file>
+git commit -m "Your commit message"
+git push
+git pull origin master
